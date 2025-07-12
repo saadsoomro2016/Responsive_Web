@@ -1,0 +1,195 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 15px;
+    }
+    .headerleft{
+        justify-content: center;
+    }
+    .logo{
+    padding: 10px;}
+    .address{
+        padding: 10px;
+    }
+    .address p {
+        font-size: 10px;
+    }
+    .address h3 {
+        font-size: 15px;
+    }
+    .headerbottom button{
+        padding: 10px;
+    }
+     
+    .headerright{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    margin-right: 0px;
+    justify-content: center;
+    bottom: 0px;;
+
+}
+    .bannerSection{
+        display: none;
+    }
+
+    .orderBanner{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .categoryItems{
+    flex-basis: 25%;
+    }
+    .productRow{
+      /* flex-direction: column;   */
+      /* display: flex; */
+      /* flex-wrap: wrap; */
+      
+    }
+
+    .productItem{
+        flex-basis: 49%;
+    }
+    .productSection{
+        padding: 30px 10px;
+    }
+    footer{
+        padding-top: 0px;
+    }
+
+    .footer-mid-row1{
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .footer-mid-row3{
+        padding: 0px 10px;
+    }
+
+    .footer-mid-row2{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .appicon{
+        flex-basis: 30%;
+        padding: 0px 10px;
+    }
+    .appicon img{
+        width: 100px;
+    }
+    .slinks{
+     margin-left: 0px;
+    }
+
+}
+
+
+@media only screen and (min-width:576px) and (max-width:991px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        gap: 40px;
+    }
+    .headerleft{
+        display: flex;
+        align-self: center;
+    }
+    
+    .logo{
+    padding: 23px 30px;
+    border-right: 1px solid #ccc;
+
+}
+
+.address{
+        padding: 10px;
+    }
+    .address p {
+        font-size: 10px;
+    }
+    .address h3 {
+        font-size: 15px;
+    }
+    .headerbottom button{
+        padding: 10px;
+    }
+     
+    .headerright{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    margin-right: 0px;
+    justify-content: center;
+    bottom: 0px;;
+
+}
+    .bannerSection{
+        display: none;
+    }
+
+    .orderBanner{
+        
+        /* flex-direction: column; */
+        padding: 10px;
+    }
+    .orderBanneritem{
+    flex-basis: 30%;
+    margin: 1%;
+    }
+    .categoryItems{
+    flex-basis: 12.5%;
+    }
+    .productRow{
+      /* flex-direction: column;   */
+      /* display: flex; */
+      /* flex-wrap: wrap; */
+      
+    }
+
+    .productItem{
+        flex-basis: 23.5%;
+    }
+    .productSection{
+        padding: 30px 10px;
+    }
+    footer{
+        padding-top: 0px;
+    }
+
+    .footer-mid-row1{
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .footer-mid-row3{
+        padding: 0px 10px;
+    }
+
+    .footer-mid-row2{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .appicon{
+        flex-basis: 30%;
+        padding: 0px 10px;
+    }
+    .appicon img{
+        width: 100px;
+    }
+    .slinks{
+     margin-left: 0px;
+    }
+
+
+       
+}
